@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:title="Home"
+           />
+
+        <item android:id="@+id/nav_db"
+            android:title="Danh Bạ"
+            />
+        <item android:id="@+id/nav_mt"
+            android:title="May Tinh"
+            />
+    </group>
+    <item android:title="" >
+        <menu>
+
+            <item android:id="@+id/nav_seting"
+                android:title="Cài Đăt"
+               />
+
+            <item android:id="@+id/nav_bakup"
+                android:title="Backup"
+               />
+        </menu>
+    </item>
+</menu>
